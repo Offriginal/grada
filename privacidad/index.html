@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Privacidad · Grada</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #16171a;
+    --muted: #5f6368;
+    --line: #e6e6e9;
+    --card: #f5f5f7;
+    --accent: #0a7d4f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b0c0e;
+      --text: #f2f2f4;
+      --muted: #a1a3a8;
+      --line: #26282c;
+      --card: #16181b;
+      --accent: #3ddc97;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font-size: 32px; line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 6px; }
+  h2 { font-size: 20px; letter-spacing: -0.01em; margin: 36px 0 8px; }
+  p, ul { margin: 0 0 14px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  .date { color: var(--muted); font-size: 15px; margin-bottom: 28px; }
+  .summary { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; }
+  .summary p:last-child { margin-bottom: 0; }
+  footer { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 16px; color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad de Grada</h1>
+  <p class="date">Última actualización: octubre de 2026</p>
+
+  <div class="summary">
+    <p><strong>En resumen:</strong> Grada no tiene cuentas. No te pedimos nombre, email ni teléfono, no usamos tu ubicación, no hay anuncios, no hay analítica y no te rastreamos. Solo guardamos lo justo para mandarte los avisos y el marcador en directo de tu equipo.</p>
+  </div>
+
+  <h2>Qué datos tratamos</h2>
+  <p>Cuando eliges equipo, la app envía a nuestro servidor:</p>
+  <ul>
+    <li><strong>Un identificador de instalación:</strong> un número aleatorio que crea la app la primera vez que la abres. No contiene nada sobre ti ni sobre tu iPhone.</li>
+    <li><strong>Tokens de notificaciones y de Actividades en directo:</strong> códigos que da Apple para poder enviar avisos y el marcador a este iPhone.</li>
+    <li><strong>Tu equipo y tus preferencias:</strong> qué avisos quieres (gol, alineación, día de partido, tarjeta roja) y si quieres el marcador en directo, junto con la versión de la app.</li>
+  </ul>
+  <p>Ninguno de estos datos está ligado a tu identidad.</p>
+
+  <h2>Para qué los usamos</h2>
+  <p>Solo para enviarte los avisos y el marcador en directo de tu equipo, que es el servicio que pides al usar la app. No los usamos para nada más, no los vendemos y no los compartimos con nadie para publicidad.</p>
+
+  <h2>Dónde se guardan</h2>
+  <p>En Supabase, nuestro proveedor de servidores, en la Unión Europea (Fráncfort, Alemania). Como cualquier servicio en internet, el proveedor puede registrar durante un tiempo limitado datos técnicos de la conexión, como la dirección IP, por seguridad.</p>
+
+  <h2>Datos de fútbol y noticias</h2>
+  <p>Los partidos, resultados, clasificaciones y alineaciones proceden de API-Football. Algunas imágenes se descargan directamente de sus servidores, que solo reciben los datos técnicos de la conexión.</p>
+  <p>De las noticias mostramos solo el titular, el medio y el enlace. Al tocar una, el artículo se abre en la web del medio, que tiene su propia política de privacidad.</p>
+
+  <h2>Pagos</h2>
+  <p>Las suscripciones a Grada Pro las gestiona Apple. No recibimos tus datos de pago: la app solo consulta a Apple si tu suscripción está activa.</p>
+
+  <h2>Tus fotos</h2>
+  <p>Las fotos que eliges como fondo se copian dentro de la app y nunca salen de tu iPhone.</p>
+
+  <h2>Cuánto tiempo los guardamos y cómo borrarlos</h2>
+  <p>Los tokens de avisos se borran en cuanto Apple los invalida (por ejemplo, al desinstalar la app). El registro de tu instalación (su identificador, tu equipo y tus preferencias de avisos) se guarda hasta que nos pidas borrarlo.</p>
+  <p>Para borrarlo, escríbenos a <a href="mailto:offriginal@gmail.com">offriginal@gmail.com</a>.</p>
+
+  <h2>Tus derechos</h2>
+  <p>Puedes pedirnos acceso, rectificación, supresión, oposición, limitación y portabilidad de tus datos escribiendo a <a href="mailto:offriginal@gmail.com">offriginal@gmail.com</a>. Si crees que no los tratamos bien, puedes reclamar ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es">aepd.es</a>).</p>
+
+  <h2>Cambios</h2>
+  <p>Si cambiamos esta política, publicaremos aquí la nueva versión con su fecha.</p>
+
+  <footer>
+    Responsable: Juan Mingo Gimenes · Contacto: <a href="mailto:offriginal@gmail.com">offriginal@gmail.com</a> · <a href="https://offriginal.github.io/grada/soporte/">Soporte</a>
+  </footer>
+</main>
+</body>
+</html>
